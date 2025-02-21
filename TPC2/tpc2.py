@@ -3,7 +3,7 @@ import re
 
 padrao_nome = r'[^;]+;"'
 padrao_ano = r';\d{4};'
-padrao_periodo = r';[A-ZÀ-Ö][a-zØ-öø-ÿ]{2,}(\s[A-Z]+)?;'
+padrao_periodo = r';[A-ZÀ-Ö][a-zØ-öø-ÿ]{2,};'
 padrao_compositor = r';[A-Za-z]+,?\s[A-Za-z\s]+;'
 padrao_duracao = r';\d{2}:\d{2}:\d{2};'
 padrao_id = r';O\d+'
